@@ -5,6 +5,6 @@ interface CRUDInterface {
     public function retrieve(int $id);
     public function update(int $id, array $properties): bool;
     public function delete(int $id): bool;
-    public function getAllBy(array $conditions);
+    
 }
 ?>
